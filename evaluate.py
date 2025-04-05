@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     val_df = pd.read_csv("data/validation.csv")
 
-    pred_df = pd.read_csv("validation_prediction_tuned_randomized_svdpp.csv")
+    pred_df = pd.read_csv("predictions_wdcf_3.csv")
 
     df = pd.merge(
         val_df,
